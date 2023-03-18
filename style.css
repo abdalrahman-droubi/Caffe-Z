@@ -1,5 +1,5 @@
 body {
-    background-image: url(./img/Stop\ Buying\ Coffee\ _\ Money\ Saving\ Challenge\ -\ Family\ Makes\ Cents.jpeg);
+    background-image: url(./img/coffee.webp);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -21,7 +21,9 @@ body {
 }
 
 .nav-link {
-    font-size: 25px !important;
+    font-size: 30px !important;
+    border-bottom: 2px solid white ;
+    -webkit-text-stroke: 0.2px white;
 }
 
 .menu img {
