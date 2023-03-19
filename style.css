@@ -1,11 +1,11 @@
 body {
-    background-image: url(./img/coffee.webp);
+    background-image: url(./img/cc.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .image-logo {
-    width: 300px;
+    width: 400px;
     height: 100%;
     margin-right: 100px;
 }
@@ -17,15 +17,12 @@ body {
 }
 
 .nav-item:hover {
-    background-color: #ccc;
+    background-color: #F9EBD4;
 }
 
 .nav-link {
-    font-size: 30px !important;
-    border-bottom: 2px solid white ;
-    -webkit-text-stroke: 0.2px white;
+    font-size: 20px !important;
 }
-
 .menu img {
     width: 500px;
     height: 800px;

@@ -15,7 +15,7 @@ if (customerGender == "male") {
 
 let hotColdDrink = prompt("do you want your drink hot or cold ?")
 
-let typeDrink = prompt("please write the name of the drink you want ")
+let typeDrink = prompt("please write the name of the drink you want☕ ")
 
 alert("please wait the drink is getting prepared ")
 
