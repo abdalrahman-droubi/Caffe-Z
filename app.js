@@ -3,15 +3,19 @@ let customerName = prompt("Please enter your name");
 
 let customerGender = prompt("Please enter your Gender male/female")
 
-while (customerGender != "male" && customerGender != "female") {
-    customerGender = prompt("Please enter your Gender male/female")
+function specifyGender(customerGender) {
+    
+    while (customerGender != "male" && customerGender != "female") {
+        customerGender = prompt("Please enter your Gender male/female")
+    }
+    
+    if (customerGender == "male") {
+        alert("Welcom Mr "+ customerName)
+    } else {
+        alert("Welcom Ms "+ customerName)
+    } 
 }
-
-if (customerGender == "male") {
-    alert("Welcom Mr "+ customerName)
-} else {
-    alert("Welcom Ms "+ customerName)
-} 
+specifyGender(customerGender)
 
 let hotColdDrink = prompt("do you want your drink hot or cold ?")
 
@@ -32,5 +36,7 @@ let customer = [customerName , customerGender , hotColdDrink , typeDrink]
 for(let i=0 ; i<customer.length ; i++){
     console.log(customer[i])
 }
+
+
 
 
