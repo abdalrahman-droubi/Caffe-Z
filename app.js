@@ -2,8 +2,8 @@
 let customerName = prompt("Please enter your name");
 
 
+let customerGender = prompt("Please enter your Gender male/female")
 function specifyGender(customerGender) {
-    let customerGender = prompt("Please enter your Gender male/female")
 
     while (customerGender != "male" && customerGender != "female") {
         customerGender = prompt("Please enter your Gender male/female")
@@ -55,9 +55,9 @@ ul.appendChild(li3);
 
 
 paragraph.textContent = `${customerName}`;
-li1.textContent = `${customerGender}`;
-li2.textContent = `${hotColdDrink}`;
-li3.textContent = `${typeDrink}`;
+li1.textContent = ` Gender : ${customerGender}`;
+li2.textContent = ` Age : 26`;
+li3.textContent = ` Drink : ${hotColdDrink} ${typeDrink}`;
 
 
 
